@@ -1,0 +1,203 @@
+
+header {
+    background-image: url(../images/bitcoin-3089728__480.webp);
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    }
+   .sticky {
+    text-align: center;
+       top: 20px
+       
+
+    }
+
+.images{
+    width: 150px;
+    margin: auto;
+    border: solid black ;
+}
+
+/* Slider Css */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Slider Css End */
+
+  .navbar-nav li {
+    cursor: pointer;
+  }
+
+.navbar-nav li:not(:last-child) {
+    margin-right: 15px;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.705);
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    align-items: center;
+    padding-top: auto;
+  }
+  
+  .loading-screens{
+    text-align: center;
+    position:fixed;
+    z-index: 2000;
+    height: 20%;
+  }
+  .loading-screen{
+    max-width: 10rem;
+    position:relative; 
+    z-index: 2000;
+  }
+  .screen img {
+    width: 100px;
+    
+
+  }
+  .title-String {
+    text-align: center;
+    
+  }
+
+  #chartContainer{
+    margin-bottom: 30px;
+  }
+  
+      
+  
+  .aboutImg {
+    width: 700px;  
+    height: 500px; 
+    border:solid black;
+    margin-bottom: 30px;
+    border-radius: 25px;
+  }
+
+  .modal-body {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 3; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 3; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 3; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 3; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 3; }
+}
+.about{
+  
+    font-family: 'Square Peg', cursive;
+    font-size: 23px;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+
+  
